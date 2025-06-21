@@ -1,0 +1,9 @@
+LOADFILE=TEST_ATA7080.txt
+LOADFILE=FMSPAGES.txt
+Terminado de cargar archivo: filePath = "/mnt/mcdu/MCDU_Files/MCDUPAGE.TXT";
+bash: line 1:  4098 Segmentation fault      sudo ./mcdu
+\nPresiona ENTER para salir
+
+
+
+

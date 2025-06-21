@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar MCDU (Debug)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-g", // ← símbolo de depuración
+                "-Isrc",
+                "-Iinclude",
+                "scr/mcdu.cpp",
+                "scr/fileTools.cpp",
+                "scr/hidTools.cpp",
+                "scr/screenTools.cpp",
+                "-lncursesw",
+                "-lhidapi-hidraw",
+                "-o",
+                "bin/mcdu"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Compila en modo Debug con símbolos -g, sin optimización"
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+PAGE=ALPHALIST1
+ TLL=ACMS:ALPHA LIST     1/24
+ 1LD=*[{ }],CYAN
+ 1CD=FIRST CHARACTER, #6
+ 2LB=A3   A4L  ACF1 ACF2 ACID , green 
+ 2LD=ACL  ACM1 ACW1 ACW2 ACW3 , green 
+ 3LB=ACYC AEVM AFD  AFT  AHRS ,  green 
+ 3LD=AILL AILR ALF  ALID ALP  , green 
+ 4LB=ALT  ALTR ALTV AMW1 AOA  ,  green 
+ 4LD=AOS  AOV  AOVD AP1  AP2  ,  green 
+ 5LB=APU  APUD APUM APUS APUV ,  green 
+ 5LD=AS10 AS11 AS12 AS13 AS14 ,  green 
+ 6LB=ASD0 ASD1 ASD2 ASD3 ASD4,   green 
+ 6LD=<RETURN, CYAN  
+ 6RD=PRINT*, CYAN
+ PADL= ^~ SCROLL _$ ALPHA CALL, SMALLFONT
+ LSK1L=$SWAPSCRATCH#
+ LSK6L=ALPHACALL
+ ARROWDN=ALPHALIST2
+ ARROWUP=ALPHALIST2
+ ARROWRH=ALPHACALL
+ ARROWLH=ALPHACALL
+endpage
+
+PAGE=ALPHALIST2
+ TLL=ACMS:ALPHA LIST    24/24
+ 1LD=*[{ }], CYAN
+ 1CD=FIRST CHARACTER, smallfont, #6
+ 2LB=VIB1 VIB2 VL   VLS  VMAN ,  green  
+ 2LD=VMAX VRTA VRTG VS   VSCB ,  green  
+ 3LB=VSR  VSV  WAII WAIO WAIV ,  green  
+ 3LD=WAOV WB   WD   WF   WFH  ,  green  
+ 4LB=WS   WSD5 WSD8 XBLV XBV2 ,  green  
+ 4LD=XBVV YAW  ZA   ZCB  ZCW1 , green  
+ 5LB=ZLD , green   
+ ;5LD= ECYC   EDV5    EDV6 , green smallfont , 
+ ;6LB= EGT    EGTA    EGTK , green smallfont , 
+ 6LD=<RETURN, CYAN  
+ 6RD=PRINT*, CYAN
+ LSK1L=$SWAPSCRATCH#
+ LSK6L=ALPHACALL
+ ARROWDN=ALPHALIST1
+ ARROWUP=ALPHALIST1
+ ARROWRH=ALPHACALL
+ ARROWLH=ALPHACALL
+ENDPAGE
+
+PAGE=ALPHALIST3
+TLL= ACMS: ALPHA LIST    3/9
+1LD=*[{ }], CYAN
+1CD=FIRST CHARACTER, smallfont, #6
+2LB= EGTM   EGTP    EHRS,  green smallfont
+2LD= ELEV   EPR     ERF5,  green smallfont
+3LB= ERF6   ERT     ESN,   green smallfont
+3LD= EVM    FF      FFK ,  green smallfont
+4LB= FLAP   FLPH    FLT ,  green smallfont
+4LD= FMV    FOV     FOVD,  green smallfont
+5LB= FPA    FPAC    FQ  ,  green smallfont
+5LD= FRTO   FV      GLA ,  green smallfont
+6LB= GLE    GS  ,   GW  ,  green smallfont
+6LD=<RETURN, CYAN  
+6RD=PRINT*, CYAN
+LSK6L=ALPHACALL
+ARROWDN=ALPHALIST4
+ARROWUP=ALPHALIST2
+LSK1L=$SWAPSCRATCH
+ENDPAGE
+
+PAGE=ALPHALIST4
+TLL= ACMS: ALPHA LIST    4/9
+1LD=*[{ }] , CYAN 
+1CD=FIRST CHARACTER, smallfont, #6
+2LB= GWFEK  HGEP    HGSP,  green smallfont
+2LD= HOT    HPT     IALT,  green smallfont
+3LB= IFQ    IGV     IVV ,  green smallfont
+3LD= K5     K6      LATA,  green smallfont
+4LB= LATP   LBPA    LCIT,  green smallfont
+4LD= LCOT   LGDR    LIM1,  green smallfont
+5LB= LIM2   LONA    LOT ,  green smallfont
+5LD= LPT    MN      N1  ,  green smallfont
+6LB= N1A    N1C     N1K ,  green smallfont
+6LD=<RETURN, CYAN  
+6RD=PRINT*, CYAN
+LSK6L=ALPHACALL
+ARROWDN=ALPHALIST5
+ARROWUP=ALPHALIST3
+LSK1L=$SWAPSCRATCH
+ENDPAGE
+
+PAGE=ALPHALIST5
+TLL= ACMS: ALPHA LIST    5/9
+1LD=*[{ }], CYAN
+1CD=FIRST CHARACTER, smallfont, #6
+2LB= N1MX   N1P     N2  ,  green smallfont
+2LD= N2K    N2P     NA  ,  green smallfont
+3LB= NDV5   NDV6    NL  ,  green smallfont
+3LD= NM     NPA     NRAT,  green smallfont
+4LB= NRF5   NRF6    NWAC,  green smallfont
+4LD= NWSA   OC      OF  ,  green smallfont
+5LB= OFQ    OIP     OIQ ,  green smallfont
+5LD= OIQH   OIT     P0  ,  green smallfont
+6LB= P25    P2A     P49 ,  green smallfont
+6LD=<RETURN, CYAN  
+6RD=PRINT*, CYAN
+LSK6L=ALPHACALL
+ARROWDN=ALPHALIST6
+ARROWUP=ALPHALIST4
+LSK1L=$SWAPSCRATCH
+ENDPAGE
+
+PAGE=ALPHALIST6
+TLL= ACMS: ALPHA LIST    6/9
+1LD=*[{ }], CYAN
+1CD=FIRST CHARACTER, smallfont, #6
+2LB= PBV    PCW1    PCW1D,  green smallfont
+2LD= PCW2   PCW2D   PD   ,  green smallfont
+3LB= PDC    PDCD    PF   ,  green smallfont
+3LD= PH     PHF     PHT  ,  green smallfont
+4LB= PRV    PS14    PS3  ,  green smallfont
+4LD= PT     PTCH    PTCR ,  green smallfont
+5LB= PTV    QA      QE   ,  green smallfont
+5LD= RALR   RALT    RFQ  ,  green smallfont
+6LB= RI     RO      ROLL ,  green smallfont
+6LD=<RETURN, CYAN  
+6RD=PRINT*, CYAN
+LSK6L=ALPHACALL
+ARROWDN=ALPHALIST7
+ARROWUP=ALPHALIST5
+LSK1L=$SWAPSCRATCH
+ENDPAGE
+
+PAGE=ALPHALIST7
+TLL= ACMS: ALPHA LIST    7/9
+1LD=*[{ }],CYAN
+1CD=FIRST CHARACTER, smallfont, #6
+2LB= ROLR   RSP1    RSP2 ,  green smallfont
+2LD= RSP3   RSP4    RSP5 ,  green smallfont
+3LB= RSP6   RUDD    RUDT ,  green smallfont
+3LD= S      SAT     SAV  ,  green smallfont
+4LB= SCV    SLAT    ST1  ,  green smallfont
+4LD= ST2    ST3     ST4  ,  green smallfont
+5LB= ST5    STA     STAB ,  green smallfont
+5LD= T12    T25     T3   ,  green smallfont
+6LB= T5     T5MX    TAT  ,  green smallfont
+6LD=<RETURN, CYAN  
+6RD=PRINT*, CYAN
+LSK6L=ALPHACALL
+ARROWDN=ALPHALIST8
+ARROWUP=ALPHALIST6
+LSK1L=$SWAPSCRATCH
+ENDPAGE
+
+PAGE=ALPHALIST8
+TLL= ACMS: ALPHA LIST    8/9
+1LD=*[{ }],CYAN
+1CD=FIRST CHARACTER, smallfont,#6
+2LB= TFQ    THDG    TN   ,  green smallfont
+2LD= TOS    TOW     TP   ,  green smallfont
+3LB= TPO    TRA     TTA  ,  green smallfont
+3LD= TTE    TTF     TW   ,  green smallfont
+4LB= UTC    V1      V2   ,  green smallfont
+4LD= V3     V4      V5   ,  green smallfont
+5LB= V6     V7      VACC ,  green smallfont
+5LD= VBV    VC      VF   ,  green smallfont
+6LB= VH     VIB1    VIB2 ,  green smallfont
+6LD=<RETURN, CYAN  
+6RD=PRINT*, CYAN
+LSK6L=ALPHACALL
+ARROWDN=ALPHALIST9
+ARROWUP=ALPHALIST7
+LSK1L=$SWAPSCRATCH
+ENDPAGE
+
+PAGE=ALPHALIST9
+TLL= ACMS: ALPHA LIST    9/9
+1LD=*[{ }],CYAN
+1CD=FIRST CHARACTER, smallfont, #6
+2LB= VL     VREF    VRTA ,  green smallfont
+2LD= VSCB   VSCBD   VSV  ,  green smallfont
+3LB= WB     WD      WF   ,  green smallfont
+3LD= WS     WSPD    WSPD4,  green smallfont
+4LB= YAW    ZA      ZCB  ,  green smallfont
+4LD= ZCBD   ZFW     ZLD  ,  green smallfont
+5LB= ZLDD ,   green smallfont
+6LD=<RETURN, CYAN  
+6RD=PRINT*, CYAN
+LSK6L=ALPHACALL
+ARROWDN=ALPHALIST1
+ARROWUP=ALPHALIST8
+LSK1L=$SWAPSCRATCH
+ENDPAGE
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+xfce4-terminal \
+  --fullscreen \
+  --hide-menubar \
+  --hide-scrollbar \
+  --geometry=24x14 \
+  --font="Lucida Console Regular 19" \
+  --command="bash -c 'export LC_ALL=C; export LANG=C; sleep 0.2; cd /mnt/mcdu/bin/; sudo ./mcdu; echo \"\nPresiona ENTER para salir...\"; read'"
